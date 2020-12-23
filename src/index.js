@@ -1,3 +1,13 @@
+// Use the shim for prose
+import { setup } from 'twind/shim'
+import typography from '@twind/typography'
+
+setup({
+  plugins: {
+    ...typography(),
+  },
+})
+
 import App from './app.svelte'
 
 const app = new App({

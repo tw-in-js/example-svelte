@@ -1,8 +1,8 @@
 {
-  "name": "@tw-in-js/example-svelte",
+  "name": "@twind/example-svelte",
   "version": "0.0.0",
   "private": true,
-  "description": "tw-in-js svelte example",
+  "description": "twind svelte example",
   "main": "src/index.ts",
   "scripts": {
     "build": "snowpack build",
@@ -10,9 +10,9 @@
     "start": "snowpack dev"
   },
   "dependencies": {
-    "@tw-in-js/core": "^0.1.3",
-    "@tw-in-js/typography": "^0.0.1",
-    "svelte": "^3.24.0"
+    "@twind/typography": "^0.0.1",
+    "svelte": "^3.24.0",
+    "twind": "^0.8.1"
   },
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.3.0",

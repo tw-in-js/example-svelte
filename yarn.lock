@@ -132,18 +132,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tw-in-js/core@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/@tw-in-js/core/-/core-0.1.3.tgz#36e27dde99e5ea617ea2c9f7de778c7da498e462"
-  integrity sha512-CgTU28rP/qF1epRtag/Ch/4jbSRXOSemm9B+A7i7XHPKLPJw+hF9h9qw6Ma3xTfFwMRJDY1FhDdr55nmFZ5ggQ==
-  dependencies:
-    csstype "^3.0.5"
-    tiny-css-prefixer "^1.1.4"
-
-"@tw-in-js/typography@^0.0.1":
+"@twind/typography@^0.0.1":
   version "0.0.1"
-  resolved "https://registry.npmjs.org/@tw-in-js/typography/-/typography-0.0.1.tgz#2eb8f62f4bd7da2035c63ab9670702082b9aadc5"
-  integrity sha512-Ns6E9Qoe4DZh0iBgkPsmu4iNdC9M5gpLKQRg3X4WXxfJwr0WmtnshrILaxyuWdJj/I671eiTgUdwTu7sFEwGkQ==
+  resolved "https://registry.npmjs.org/@twind/typography/-/typography-0.0.1.tgz#4aa442125cc8d82b1b357450377d234e7dfeb504"
+  integrity sha512-LKtb18HjyekO5E+6tycottrQaADjOZtb7z4YfcUodbVF8/r2PWcaBWHvJtF3ljAdwjMEWwPGBiWMt0mVE6KADg==
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.1"
@@ -1833,6 +1825,14 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
+
+twind@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.npmjs.org/twind/-/twind-0.8.1.tgz#3a1b5b74b6999c3aa6387b1762214c42255c97cd"
+  integrity sha512-WHkkqXCmnY7+o/dXgoQIPgC+Qyo+y/XNxGUQrtwGxeDplx4wsY8m0chS6ubfBLijdGZ0yKTDdBooMCzYfhBD9A==
+  dependencies:
+    csstype "^3.0.5"
+    tiny-css-prefixer "^1.1.4"
 
 typescript@*:
   version "4.1.2"

@@ -1,12 +1,5 @@
 <script>
-  import { tw, setup } from '@tw-in-js/core'
-  import typography from '@tw-in-js/typography'
-
-  setup({
-    plugins: {
-      ...typography(),
-    },
-  })
+  import { tw } from 'twind'
 
   const style = {
     main: tw`
@@ -18,7 +11,6 @@
       flex
       items-center
       justify-center
-      clearfix
       transition
       duration-1000
       hover:(
@@ -91,9 +83,10 @@
   </div>
 </main>
 
-<section class={tw`mx-auto px-10 py-10 sm:py-16 md:py-24 lg:py-32 xl:py-48`}>
-  <article class={tw`prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto`}>
-    <p class={tw`lead`}>
+<!-- The styles for these classes are injected by twind/shim -->
+<section class="mx-auto px-10 py-10 sm:py-16 md:py-24 lg:py-32 xl:py-48">
+  <article class="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto">
+    <p class="lead">
       Until now, trying to style an article, document, or blog post with Tailwind has been a tedious
       task that required a keen eye for typography and a lot of complex custom CSS.
     </p>
